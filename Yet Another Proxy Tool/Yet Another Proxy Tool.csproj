@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Proxy_Scraper_and_Checker</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<AssemblyName>Yet Another Proxy Tool</AssemblyName>
+	<ApplicationIcon>network.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="network.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Jurassic" Version="3.2.6" />
+    <PackageReference Include="Leaf.xNet" Version="5.2.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Spectre.Console">
+      <HintPath>bin\Debug\net6.0\Spectre.Console.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
